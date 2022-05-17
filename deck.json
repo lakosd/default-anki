@@ -1,0 +1,844 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "e00a2cee-d5f4-11ec-8de1-acde48001122",
+    "deck_config_uuid": "e00a3324-d5f4-11ec-8de1-acde48001122",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "e00a3324-d5f4-11ec-8de1-acde48001122",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "restart-one-for-all.png",
+        "restart-one-for-one.png",
+        "restart-rest-for-one.png"
+    ],
+    "name": "Default",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "e00a4c7e-d5f4-11ec-8de1-acde48001122",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic (and reversed card)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{Back}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "e00a6920-d5f4-11ec-8de1-acde48001122",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: black;\n  background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Back Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does <b>rr(Module)</b> do in Erlang?",
+                "What's the function for <b>reading the records from a given module</b> to be used in the shell?"
+            ],
+            "guid": "C)?[yUSJl=",
+            "note_model_uuid": "e00a4c7e-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are process monitors used for in Erlang?",
+                "When Process A is monitoring Process B, and Process B goes down, it sends a message to Process A. Something like:<br>{'DOWN',#Ref&lt;0.0.11.186&gt;,process,&lt;0.63.0&gt;,noproc}"
+            ],
+            "guid": "I*HFJ^:Tha",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How to remove a monitor in Erlang?",
+                "erlang:demonitor(Ref, Options)."
+            ],
+            "guid": "K~<cwy(3PN",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are process links in Erlang?",
+                "When two processes are linked, if one of them dies the other dies too."
+            ],
+            "guid": "iwhI0x~teI",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How to link two processes in Erlang?",
+                "link(Pid) is called from the linking process."
+            ],
+            "guid": "f6c`Mm:,Ji",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Can links be stacked in Erlang? Can monitors?",
+                "Links: no. Monitors: yes."
+            ],
+            "guid": "HANlU#^fP;",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which version of the module do <i>local calls</i> vs. <i>external calls</i> run in Erlang?",
+                "There can be multiple versions of a module loaded in the code server. Local calls run on the version which the process itself is running on. External calls always run on the newest version of the module.*<br><br>* This allows hot code loading when a process is recursively calling itself with an external call."
+            ],
+            "guid": "R;n~9tv(0",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What's the function for getting <b>the head of a list</b> in Erlang?",
+                "What does <b>hd() </b>do in Erlang?"
+            ],
+            "guid": "ix~JlYFUdJ",
+            "note_model_uuid": "e00a4c7e-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What's the function for getting&nbsp;<b>the tail of a list</b>&nbsp;in Erlang?",
+                "What does <b>tl() </b>do in Erlang?"
+            ],
+            "guid": "g^dpjUC^h*",
+            "note_model_uuid": "e00a4c7e-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How is a behaviour defined in Erlang?",
+                "As a module:<br>- The module name is the name of the behaviour<br>- The module exports the behaviour_info(callbacks) function, which returns a list of the expected callback functions.<br><br>Example:<br><pre>-module(my_behaviour).\n-export([behaviour_info/1]).\n\n%% init/1, some_fun/0 and other/3 are now expected callbacks\nbehaviour_info(callbacks) -&gt; [{init,1}, {some_fun, 0}, {other, 3}];\nbehaviour_info(_) -&gt; undefined.</pre>"
+            ],
+            "guid": "skh*$-^zZH",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which callbacks need to be implemented for the gen_server behaviour in Erlang? (Which one is missing?)<br><ul><li>{{c1::init}}</li><li>{{c2::handle_call}}</li><li>{{c3::handle_cast}}</li><li>{{c4::handle_info}}</li><li>{{c5::terminate}}</li><li>{{c6::code_change}}</li></ul>",
+                ""
+            ],
+            "guid": "mIavc)8MXQ",
+            "note_model_uuid": "e00a6920-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How to \"empty the mailbox\" of the Erlang shell?",
+                "flush()."
+            ],
+            "guid": "f}o~mNnbJI",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How does the <b>one_for_one</b>&nbsp;restart strategy work in Erlang supervisors?",
+                "Which restart strategy works like this (Erlang supervisors)?<br>If one of the supervisor's workers fails, <b>only that one gets restarted</b>.<br><img src=\"restart-one-for-one.png\">"
+            ],
+            "guid": ")BS*<9uP$",
+            "note_model_uuid": "e00a4c7e-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How does the&nbsp;<b>one_for_all</b>&nbsp;restart strategy work in Erlang supervisors?",
+                "Which restart strategy works like this (Erlang supervisors)?<br>If one of the supervisor's workers fails,&nbsp;<b>all workers get restarted</b>.<br><img src=\"restart-one-for-all.png\">"
+            ],
+            "guid": "n_:rYlbM(t",
+            "note_model_uuid": "e00a4c7e-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How does the <b>rest_for_one</b>&nbsp;restart strategy work in Erlang supervisors?",
+                "Which restart strategy works like this (Erlang supervisors)?<br>There are multiple processes which were started by each other. If one process fails, <b>every process that depends on it gets restarted</b>.<br><img src=\"restart-rest-for-one.png\">"
+            ],
+            "guid": "eIP7?-f/eI",
+            "note_model_uuid": "e00a4c7e-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How does the&nbsp;<b>simple_one_for_one</b>&nbsp;restart strategy work in Erlang supervisors?",
+                "Which restart strategy works like this (Erlang supervisors)?<br><b>All child processes are instances of the same process type.</b> If a new one is needed, it gets started."
+            ],
+            "guid": "D$lC;-rR<l",
+            "note_model_uuid": "e00a4c7e-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What values can Restart take in a supervisor's child specification? What do they mean?<span style=\"background-color: rgb(255, 255, 255);\"><br></span><span style=\"background-color: rgb(238, 238, 238);\">{ChildId, StartFunc, Restart, Shutdown, Type, Modules}</span>",
+                "<ul><li>permanent - The child will always be restarted.</li><li>temporary - The child will never be restarted.</li><li>transient - The child will only be restarted if it dies due to abnormal causes.</li></ul>"
+            ],
+            "guid": "ML!@tp|x{(",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What does it mean for a process to trap exits? How do we set a process to trap exits?",
+                "Normally a process dies when receiving an exit signal (except when Reason = normal). Instead, in processes which trap exits arriving exit signals will be converted to messages which take the form of&nbsp;{'EXIT', From, Reason}.<br>Processes like this are called system processes.<br>Trapping exits can be set with: process_flag(trap_exit, true)."
+            ],
+            "guid": "E(Wdj*`C6U",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::call}} is&nbsp;{{c2::synchronous}},&nbsp;{{c1::cast}} is&nbsp;{{c2::asynchronous}}",
+                ""
+            ],
+            "guid": "OScj_-QK4?",
+            "note_model_uuid": "e00a6920-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How to print the N-th line of a file with awk?",
+                "cat <i>file </i>| awk 'NR==<i>N</i>'"
+            ],
+            "guid": "DSPH6xK9/S",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "awk"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How to kill a process in Erlang?",
+                "exit(Reason) to kill the calling process<br>exit(Pid, Reason) to kill a specific process"
+            ],
+            "guid": "htg`Qy#F1v",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Is this the src/&lt;AppName&gt;.app.src file of a <b>library application </b>or a (regular) <b>application</b>?<br><div>\n<div>\n<div>\n<pre>{application, useragent, [\n  {description, \"Identify browsers &amp; OSes from useragent strings\"},\n  {vsn, \"0.1.2\"},\n  {registered, []},\n  {applications, [kernel, stdlib]},\n  {modules, [useragent]}\n]}.&nbsp;</pre>\n</div>\n</div></div>",
+                "library application"
+            ],
+            "guid": "oJOda`+.gh",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Is this the src/&lt;AppName&gt;.app.src file of a&nbsp;<b>library application&nbsp;</b>or a (regular)&nbsp;<b>application</b>?<br><div>\n<div>\n<div>\n<pre>{application, dispcount, [\n  {description, \"A dispatching library for resources and task \"\n               \"limiting based on shared counters\"},\n  {vsn, \"1.0.0\"},\n  {applications, [kernel, stdlib]},\n  {registered, []},\n  {mod, {dispcount, []}},\n  {modules, [dispcount, dispcount_serv, dispcount_sup,\n           dispcount_supersup, dispcount_watcher, watchers_sup]}\n]}.&nbsp;</pre></div></div></div>",
+                "application"
+            ],
+            "guid": "i_:GZ?CCMQ",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which modules are usually found in <b>library applications</b>?",
+                "Are these modules usually found in library applications or (regular) applications?<br><b><i>appname</i>_something<br><i>appname</i></b>"
+            ],
+            "guid": "L3`HwhZlkP",
+            "note_model_uuid": "e00a4c7e-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which modules are usually found in&nbsp;(regular) <b>applications</b>?",
+                "Are these modules usually found in library applications or (regular) applications?<br><b><i>appname</i><br><i>appname</i>_app</b>"
+            ],
+            "guid": "sNJmPJqsqt",
+            "note_model_uuid": "e00a4c7e-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>What differentiates an application from a library application?<br>\n</div>\n</div>\n</div></div>",
+                "An application starts its own supervision tree, while a library application is to be called under an existing supervision tree."
+            ],
+            "guid": "AD]dfQ8;W1",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>What is an OTP release?<br>\n</div>\n</div>\n</div></div>",
+                "A release is a <b>collection of applications</b> packaged in a <b>production-ready</b> state. It starts up and shuts down <b>without needing to manually call</b> <tt>application:start/2</tt>."
+            ],
+            "guid": "ACq#m7-A<T",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>How do you know if a code base is an application? A release? (OTP)<br>\n</div>\n</div>\n</div></div>",
+                "<ul><li>An application's rootdir has a <tt>src/</tt> directory in which the single top-level application resides.</li><li>A release has an <tt>app/</tt> (or <tt>lib/</tt>) directory where all the top-level applications are in their respective subdirectories.</li><li>A release usually has a <tt>relx</tt> tuple in <tt>rebar.config</tt>, or a <tt>relx.config</tt> file. This has the top-level applications listed.</li></ul>"
+            ],
+            "guid": "C!t>||V(qr",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\n<div>\n<div>\nAre Erlang supervision trees started depth-first? breadth-first? Synchronously or\nasynchronously?&nbsp;<br><ol>\n</ol>\n</div>\n</div>",
+                "depth-first, synchronously"
+            ],
+            "guid": "BAmld@k>RQ",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\n<div>\n<div>\nWhat are the three application strategies in OTP? What do they do?&nbsp;<br><ol>\n</ol>\n</div>\n</div>",
+                "<ul><li>permanent: If the application terminates, the entire system shuts down. (Except when the app is manually terminated with <tt>application:stop/1</tt>).</li><li>transient: If the application terminates with reason <tt>normal</tt>, nothing bad happens. But with any other reason, the entire system shuts down.</li><li>temporary: The application can stop with any reason, nothing bad will happen.</li></ul>"
+            ],
+            "guid": "nLLV~v&Jx@",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\n<div>\n<div>\nGive two examples of the type of state that can go in a process’ init function, and\ntwo examples of the type of state that shouldn’t go in a process’ init function&nbsp;<br><ol>\n</ol>\n</div>\n</div>",
+                "Can go: <b>reading config files, file system access, restoring a stable state from disk or network</b>. These are stuff worth waiting for, because they ensure that the base state is correct.<br>Shouldn't go: <b>connecting to remote databases, external services</b>. These resources might not be accessible at the time of initialization. This leads to unstable initialization, which is bad news."
+            ],
+            "guid": "M=1JAN;lB-",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>\"Erlang {{c2::lists}} are {{c1::stacks}}, for all we care. They provide {{c1::push}} and {{c1::pop}} operations that take {{c1::O(1)}} complexity\nand are very fast\"</div>\n</div>\n</div></div>",
+                ""
+            ],
+            "guid": "m;A&>9Arc)",
+            "note_model_uuid": "e00a6920-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>Name the common sources of overload in Erlang systems<br>\n</div>\n</div>\n</div></div>",
+                "<ul><li>&nbsp;<tt>error_logger</tt> logs errors much slower than the errors can be generated</li><li>Locking and blocking operations. These can cause large message queues to build up*</li><li>Unexpected messages. These can also lead to large message queues.</li></ul>*For example, if a part of our system is responsible for lots of incoming messages, operations which take a long time to execute should be moved out of this part. Otherwise it'll slow down the rate of handling messages.<br>"
+            ],
+            "guid": "NvM?)Tpu]%",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>What are the two main classes of strategies to handle overload in Erlang systems?&nbsp;</div>\n</div>\n</div></div>",
+                "<ul><li>Back-pressure; i.e. restricting input</li><li>Load-shedding; i.e. dropping messages</li></ul>"
+            ],
+            "guid": "ed16DyNTI[",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>How can long-running operations be made safer?<br>\n</div>\n</div>\n</div></div>",
+                "<ul><li>By decoupling the long-running operation from the part of the code where messages are received by large and <b>adding more processes</b>. These will either handle the blocking operations or act as buffers while the main process handles the blocking part.</li><li>By <b>turning the</b> long-running (blocking) <b>task into an asynchronous one</b>. The task will have a unique token which will match it to the requester. Once it's done, it'll send a message to the server, which in turn will reply to the requester with the requested resource.</li></ul>"
+            ],
+            "guid": "j[P@Wa.7aZ",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>When going synchronous, how should timeouts be chosen?<br>\n</div>\n</div>\n</div></div>",
+                "On a <b>case-by-case</b> basis. Also, keep in mind that when a call is made at the edge of the system, its timeout needs to be <b>longer</b> than the ones closer to the core of the system. Otherwise successfull operations will seem like they timed out."
+            ],
+            "guid": "rP*%9++#-V",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>What is an alternative to having timeouts when applying back-pressure?<br>\n</div>\n</div>\n</div></div>",
+                "Locking the resources which we want to block on behind a module or procedure which requires <b>asking permission to access</b>."
+            ],
+            "guid": "GK+NG0#8iY",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a queue buffer?",
+                "A queue buffer is used for dropping messages. It's a separated process from the main one (i.e. a <tt>gen_server</tt>). Messages arriving to this process are put in a queue data structure and wait for the server until it requests more data to process. Whenever the queue size hits the limit, the oldest message gets popped."
+            ],
+            "guid": "p@k?k]Ersx",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a stack buffer?",
+                "Similar to a queue buffer, but with a stack (list) instead of a queue. Whenever the size limit is hit, a new message replaces the top of the stack.&nbsp;"
+            ],
+            "guid": "E2&3k>I{:3",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How to choose between a queue buffer and a stack buffer?",
+                "<ul><li>If we need the messages in order: queue buffer</li><li>If we need low latency: stack buffer</li></ul>With stack buffers most messages are low latency and a few are high. With queue buffers messages are high latency overall, but with less variance."
+            ],
+            "guid": "Cv+OyR/{z~",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the main methods of discarding data (dropping messages)?",
+                "<ul><li>Dropping messages randomly;</li><li>Queue buffers;</li><li>Stack buffers.</li></ul>"
+            ],
+            "guid": "l^Y!]jeG2S",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the two main methods of dealing with constant overload?",
+                "<ul><li>Load-balancing many processes which act as buffers (scale horizontally)</li><li>Using ETS tables as locks and counters (reduce the input)</li></ul>"
+            ],
+            "guid": "OX]<|_+or:",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>What are the 4 ways to connect to a remote node?&nbsp;</div>\n</div>\n</div></div>",
+                "<ol><li>Job Control Mode</li><li>Remsh</li><li>SSH Daemon</li><li>Named Pipes</li></ol>"
+            ],
+            "guid": "rO@>(S3d9n",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>What’s the command to <b>go into the Job Control Mode</b> (JCL)?&nbsp;<br></div>\n</div>\n</div></div>",
+                "What does <b>CTRL-G</b> do in the Erlang shell?"
+            ],
+            "guid": "kc%Bl#kkV5",
+            "note_model_uuid": "e00a4c7e-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\n<div>\n<div><div>Which method(s) of connecting to a remote shell should you avoid for a system that<br>outputs a lot of data to standard output?&nbsp;<br></div><ol>\n</ol>\n</div>\n</div>",
+                "named pipes"
+            ],
+            "guid": "JEb11M5y4e",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What instances of remote connections shouldn’t be disconnected using <font face=\"monospace\">CTRL-G</font>?",
+                "Where the Job Control Mode is not local, i.e. ssh, named pipes."
+            ],
+            "guid": "CZfGT<:,9r",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What command(s) should never be used to disconnect from a remote Erlang session?",
+                "The commands <tt>q()</tt> and <tt>init:stop()</tt> will terminate the remote shell instead of just detaching from it."
+            ],
+            "guid": "uQZsDbzv6@",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Can you connect to an Erlang node that wasn’t given a name?",
+                "Yes, with <b>ssh</b> and <b>named pipes</b>."
+            ],
+            "guid": "BF#`6T4{%r",
+            "note_model_uuid": "e00a50fc-d5f4-11ec-8de1-acde48001122",
+            "tags": [
+                "erlang",
+                "erlang-in-anger"
+            ]
+        }
+    ]
+}
